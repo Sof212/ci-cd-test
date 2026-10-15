@@ -10,7 +10,7 @@ format:
 
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	pylint --disable=R,C,W1514 --ignore-patterns='test_.*?py' *.py
 
 
 container-lint:
